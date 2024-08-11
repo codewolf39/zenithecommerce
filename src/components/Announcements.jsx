@@ -2,14 +2,15 @@ import styled from "styled-components";
 
 const Container = styled.div`
   height: 30px;
-  background-color: #69d17c;
+  background-color: #2a883ba9;
   display: flex;
   align-items: center;
   justify-content: center;
 `;
 
 const Text = styled.p`
-  color: #2c2727fb;
+  font-weight: bold;
+  color: #ffffff;
 `;
 
 const Announcements = () => {
