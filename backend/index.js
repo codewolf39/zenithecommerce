@@ -35,7 +35,7 @@ app.use("/api/v1/user", userRoute);
 app.use("/api/v1/product", productRoute);
 app.use("/api/v1/cart", cartRoute);
 app.use("/api/v1/order", orderRoute);
-app.use("/api/v1/stripe", stripeRoute);
+app.use("/api/v1/checkout", stripeRoute);
 
 //Listenting to server
 app.listen(process.env.PORT || 3000, (req, res) => {
